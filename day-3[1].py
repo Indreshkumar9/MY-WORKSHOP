@@ -1,14 +1,14 @@
 Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
-x='Rajesh'
+x='Indresh'
 type(x)
 <class 'str'>
-y='''rajesh
+y='''indresh
 kumar'''
 type(y)
 <class 'str'>
 y
-'rajesh\nkumar'
+'indresh\nkumar'
 s[0]
 Traceback (most recent call last):
   File "<pyshell#6>", line 1, in <module>
@@ -91,18 +91,18 @@ Traceback (most recent call last):
     print[s[5:1:9]]
 TypeError: 'builtin_function_or_method' object is not subscriptable
 .
-x="Rajesh"
+x="Indresh"
 y"Kumar"
 SyntaxError: invalid syntax
 y="Kumar"
 k=x+y
 x+y
-'RajeshKumar'
+'IndreshKumar'
 x+  y
-'RajeshKumar'
+'IndreshKumar'
 x+\t y
 SyntaxError: unexpected character after line continuation character
-s="Rajesh"
+s="Indresh"
 print("My Name is %s",%s)
 SyntaxError: invalid syntax
 print("My Name is %s",%s)
@@ -111,7 +111,7 @@ SyntaxError: invalid syntax
     
 SyntaxError: unexpected indent
 print("my Name is %s"%s)
-my Name is Rajesh
+my Name is Indresh
 
 s="{} is state collage.".formate("GEC Vaishali")
 Traceback (most recent call last):
@@ -133,21 +133,21 @@ AttributeError: 'str' object has no attribute 'formate'. Did you mean: 'format'?
 s="{} is state collage.".format("GEC Vaishali")
 s
 'GEC Vaishali is state collage.'
-p=rajesh
+p=indresh
 Traceback (most recent call last):
   File "<pyshell#59>", line 1, in <module>
-    p=rajesh
-NameError: name 'rajesh' is not defined
-p"rajesh"
+    p=indresh
+NameError: name 'indresh' is not defined
+p"indresh"
 SyntaxError: invalid syntax
->>> p="Rajesh"
+>>> p="indresh"
 >>> print("My name Is %s"%p)
-My name Is Rajesh
+My name Is Indresh
 >>> print("%s is good student"%p)
-Rajesh is good student
->>> 1=[7,"Rajesh",4.5, True ]
+Indresh is good student
+>>> 1=[7,"Indresh",4.5, True ]
 SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
->>> s=[7,"Rajesh",4.5, True ]
+>>> s=[7,"Indresh",4.5, True ]
 >>> type(1)
 <class 'int'>
 >>> s[4]
@@ -180,7 +180,7 @@ Traceback (most recent call last):
 TypeError: type 'str' is not subscriptable
 >>> str(s)
 '[79]'
->>> s=[7,"Rajesh",4.5, True ]
+>>> s=[7,"Indresh",4.5, True ]
 >>> s.append(65)
 >>> 1
 1
