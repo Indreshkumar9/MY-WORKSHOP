@@ -21,14 +21,14 @@ Traceback (most recent call last):
     prin("Hello ")
 NameError: name 'prin' is not defined. Did you mean: 'print'?
 x=input("Enter a number")
-Enter a number89477545
+Enter a number7493066860
 prnit(x)
 Traceback (most recent call last):
   File "<pyshell#3>", line 1, in <module>
     prnit(x)
 NameError: name 'prnit' is not defined. Did you mean: 'print'?
 print(x)
-89477545
+7493066860
 x,y=input("enter two number").sep()
 enter two number5
 Traceback (most recent call last):
@@ -81,7 +81,7 @@ Helloworld
 Hello    78world
 
 ========================= RESTART: D:/python workshop/python.py ========================
-Hello Rajesh world
+Hello Indresh world
 
 ========================= RESTART: D:/python workshop/python.py ========================
 Traceback (most recent call last):
